@@ -1,0 +1,52 @@
+body{
+  background-color:#FFFFF0;
+}
+.theone{
+ background-color: #FF2E2E;
+ margin: auto;
+ border-bottom: 2px groove #000000;
+ padding: 40px;
+ font-family: Times New Roman;
+ font-size: 40px;
+ color: #FFFFFF;
+ text-align: center;
+}
+        
+.thesecond{
+ background-color: #FFFFF0;
+ border-side: 35px outset #044AB5;
+ width: 500px;
+ margin: auto;
+ padding: 50px;
+}
+        
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:#FFFFF0;
+  border: #000000;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: Left;
+  color: #000000;
+  text-align: center;
+  padding: 4px 40px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#FF2E2E;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+/*.topnav a.active {
+  background-color: black;
+  color: white;
+}*/
